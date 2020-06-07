@@ -1,1 +1,119 @@
-/* акцент #2196F3 */
+/* акцент #2196F3 
+лого #000000
+цвет заголовков #212121  
+белый цвет #FFFFFF;
+основной цвет #757575
+цвет футер: мейл, тел rgba(255, 255, 255, 0.6)
+ */
+
+:root {
+  --primary-text-color: #757575;
+  --titles-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Лого */
+.logo {
+  color: #000000;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Навигация */
+.site-nav a {
+  color: var(--titles-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* Адрес в хедере*/
+.adress-info a {
+  color: var(--primary-text-color);
+}
+
+.adress-info a:hover,
+.adress-info a:focus {
+  color: var(--accent-color);
+}
+
+/* Секция приветствия */
+.hero-title {
+  color: var(--white-color);
+  background-color: var(--primary-text-color);
+}
+
+.hero a {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Секции */
+.section-title {
+  color: var(--titles-color);
+}
+
+/* Принципы работы */
+.principles .title {
+  color: var(--titles-color);
+}
+
+/* Чем мы занимаемся */
+.work .title {
+  color: var(--white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Наша команда */
+.name {
+  color: var(--titles-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+/* Футер */
+footer {
+  background-color: #2f303a;
+}
+.logo-studio {
+  color: var(--white-color);
+}
+
+.adress-footer {
+  color: var(--white-color);
+}
+
+.adress-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer b {
+  color: var(--white-color);
+}
+
+footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
