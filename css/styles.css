@@ -43,6 +43,10 @@ a {
   color: var(--accent-color);
 }
 
+.site-nav .current {
+  color: var(--accent-color);
+}
+
 /* Адрес в хедере*/
 .adress-info a {
   color: var(--primary-text-color);
@@ -116,4 +120,29 @@ footer .social-link {
 
 .copyright {
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* Портфолио */
+.examples-choice button {
+  color: var(--titles-color);
+  background-color: #f5f4fa;
+}
+
+.examples-choice button:hover,
+.examples-choice button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.examples .title {
+  color: var(--titles-color);
+}
+
+.examples p {
+  color: var(--primary-text-color);
+}
+
+.examples .description {
+  color: var(--white-color);
+  background-color: rgba(33, 150, 243, 0.9);
 }
